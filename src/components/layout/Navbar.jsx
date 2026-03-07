@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { HiMenuAlt3, HiX } from 'react-icons/hi'
+import TopBar from './TopBar'
 
 const navLinks = [
   { name: 'Home', path: '/' },
@@ -28,14 +29,16 @@ export default function Navbar() {
   }, [location])
 
   return (
+    <div className="fixed top-0 left-0 right-0 z-50">
+    <TopBar />
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`transition-all duration-300 ${
         scrolled
           ? 'bg-white/95 backdrop-blur-md shadow-sm'
-          : 'bg-transparent'
+          : 'bg-white/80 backdrop-blur-sm'
       }`}
     >
       <div className="container-custom">
@@ -120,5 +123,6 @@ export default function Navbar() {
         )}
       </AnimatePresence>
     </motion.nav>
+    </div>
   )
 }

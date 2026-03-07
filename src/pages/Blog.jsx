@@ -64,7 +64,7 @@ export default function Blog() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-32 pb-20 bg-white">
+      <section className="pt-40 pb-20 bg-white">
         <div className="container-custom">
           <ScrollReveal>
             <span className="section-label">Blog</span>

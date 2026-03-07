@@ -16,7 +16,7 @@ export default function Hero() {
         }} />
       </div>
 
-      <div className="container-custom relative z-10 pt-28 pb-20">
+      <div className="container-custom relative z-10 pt-36 pb-20">
         <div className="max-w-4xl">
           {/* Label */}
           <motion.div

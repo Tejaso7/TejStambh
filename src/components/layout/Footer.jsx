@@ -53,8 +53,8 @@ export default function Footer() {
               through AI, development, and automation.
             </p>
             <div className="flex flex-col gap-3 text-sm text-gray-400">
-              <a href="mailto:thisissound@thisism.com" className="flex items-center gap-2 hover:text-accent transition-colors">
-                <FiMail className="text-accent" /> thisissound@thisism.com
+              <a href="mailto:contact@tejstambh.in" className="flex items-center gap-2 hover:text-accent transition-colors">
+                <FiMail className="text-accent" /> contact@tejstambh.in
               </a>
               <a href="tel:+917447679060" className="flex items-center gap-2 hover:text-accent transition-colors">
                 <FiPhone className="text-accent" /> +91 7447679060

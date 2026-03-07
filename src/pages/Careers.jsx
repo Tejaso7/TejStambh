@@ -158,7 +158,7 @@ export default function Careers() {
                 We're always looking for talented people. Send us your resume and we'll 
                 reach out when a matching position opens up.
               </p>
-              <a href="mailto:thisissound@thisism.com" className="btn-primary text-base">
+              <a href="mailto:contact@tejstambh.in" className="btn-primary text-base">
                 Send Your Resume <HiArrowRight />
               </a>
             </div>

@@ -5,7 +5,7 @@ import { HiMail, HiPhone, HiLocationMarker, HiArrowRight, HiClock } from 'react-
 import { FaLinkedinIn, FaTwitter, FaInstagram, FaGithub } from 'react-icons/fa'
 
 const contactInfo = [
-  { icon: HiMail, label: 'Email', value: 'thisissound@thisism.com', href: 'mailto:thisissound@thisism.com' },
+  { icon: HiMail, label: 'Email', value: 'contact@tejstambh.in', href: 'mailto:contact@tejstambh.in' },
   { icon: HiPhone, label: 'Phone', value: '+91 7447679060', href: 'tel:+917447679060' },
   { icon: HiLocationMarker, label: 'Location', value: 'Pune, India', href: null },
   { icon: HiClock, label: 'Hours', value: 'Mon - Fri, 9AM - 6PM IST', href: null },

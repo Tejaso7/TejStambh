@@ -5,27 +5,32 @@ import { HiChevronLeft, HiChevronRight, HiStar } from 'react-icons/hi'
 
 const testimonials = [
   {
-    name: 'Rahul Deshmukh',
+    name: 'Alakh Singh',
     role: 'CEO, Intermost',
-    text: 'TejStambh transformed our vision into a polished SaaS product. Their technical expertise and attention to detail exceeded our expectations. The team was responsive and delivered ahead of schedule.',
+    text: 'TejStambh transformed our vision into a polished digital platform for our MBBS study abroad consultancy. Their technical expertise and attention to detail exceeded our expectations. The team was responsive and delivered ahead of schedule.',
   },
   {
-    name: 'Sneha Kulkarni',
-    role: 'Founder, Access Mails',
-    text: 'Working with TejStambh was a game-changer for our business. They built an AI-powered email platform that increased our conversion rates by 40%. Highly recommend their services.',
+    name: 'Suraj Patil',
+    role: 'Founder, AccessMails',
+    text: 'Working with TejStambh was a game-changer for our business. They built a professional website that established our online presence and helped us attract quality clients. Highly recommend their services.',
   },
   {
-    name: 'Amit Patil',
-    role: 'CTO, RyRaah',
-    text: 'The AI solutions TejStambh delivered were remarkably sophisticated yet user-friendly. Their deep understanding of machine learning helped us create a truly intelligent product.',
+    name: 'R. Singh',
+    role: 'Director, RyRaah',
+    text: 'TejStambh crafted a stunning e-commerce platform for our jewelry brand. The design beautifully showcases our collections and the shopping experience is seamless. Our online sales have grown significantly.',
   },
   {
-    name: 'Priya Sharma',
-    role: 'Director, Ombase',
-    text: 'TejStambh rebuilt our entire cloud infrastructure, resulting in 60% cost savings and 99.9% uptime. Their DevOps expertise is world-class.',
+    name: 'Abhijeet Ombase',
+    role: 'Founder, Ombase',
+    text: 'TejStambh delivered a professional business website that perfectly represents our brand. The design is clean, the messaging is sharp, and we\'ve seen a significant increase in client inquiries since launch.',
   },
   {
-    name: 'Vikram Nikam',
+    name: 'Prathmesh B.',
+    role: 'Owner, KrishnaKala Plants',
+    text: 'Our online plant store by TejStambh has been a tremendous success. Customers love the browsing experience, and the seamless checkout flow has boosted our sales beyond expectations.',
+  },
+  {
+    name: 'Shantanu Nikam',
     role: 'Owner, Nikam Interior',
     text: 'Our new website by TejStambh has generated 3x more leads than our old site. The design is stunning, and the user experience is incredibly smooth.',
   },

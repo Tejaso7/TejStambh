@@ -39,13 +39,11 @@ export default function Footer() {
       <div className="container-custom pt-16 pb-8">
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
-          {/* Brand */}
-          <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-3 mb-5">
-              <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-16 w-auto drop-shadow-lg brightness-110" />
-              <span className="text-2xl font-heading font-bold text-white">
-                Tej<span className="text-accent">Stambh</span>
-              </span>
+          {/* Brand + Large Logo */}
+          <div className="lg:col-span-2 flex flex-col items-start">
+            <Link to="/" className="mb-6">
+              <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh - Pillar of Innovation" 
+                   className="h-44 w-auto drop-shadow-2xl brightness-125 hover:scale-105 transition-transform duration-300" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
               Pillar of Innovations — Transforming ideas into scalable digital products 

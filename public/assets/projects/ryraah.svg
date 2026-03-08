@@ -1,0 +1,6 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" rx="12" fill="#333333" opacity="0.08"/>
+  <rect x="1" y="1" width="798" height="498" rx="12" fill="none" stroke="#333333" stroke-opacity="0.2" stroke-width="2"/>
+  <text x="400" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="48" font-weight="700" fill="#333333" opacity="0.35">RyRaah</text>
+  <text x="400" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#999">Replace with project screenshot (800x500)</text>
+</svg>

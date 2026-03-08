@@ -87,6 +87,7 @@ const teamDivisions = [
       { name: 'Trupti Shinde', role: 'Head of Digital' },
       { name: 'Shital Sawant', role: 'Digital Marketing Lead' },
       { name: 'Rudra Tavre', role: 'Head of Graphics & Design' },
+      { name: 'Prashant Rajak', role: 'Graphic Designer' },
     ],
   },
   {

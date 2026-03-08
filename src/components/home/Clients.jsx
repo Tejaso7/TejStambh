@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 const clients = [
   { name: 'Intermost', initials: 'IM' },
   { name: 'Access Mails', initials: 'AM' },
-  { name: 'Lyra', initials: 'LY' },
+  { name: 'RyRaah', initials: 'RR' },
   { name: 'Ombase', initials: 'OB' },
   { name: 'Nikam Interior', initials: 'NI' },
 ]

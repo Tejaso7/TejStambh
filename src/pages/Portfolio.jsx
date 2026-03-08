@@ -24,7 +24,7 @@ const projects = [
     result: '3x increase in email conversion rates',
   },
   {
-    name: 'Lyra',
+    name: 'RyRaah',
     category: 'AI',
     description: 'Intelligent voice assistant application powered by advanced NLP for customer service automation.',
     technologies: ['Python', 'NLP', 'React Native', 'GCP'],

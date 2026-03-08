@@ -16,7 +16,7 @@ const testimonials = [
   },
   {
     name: 'Amit Patil',
-    role: 'CTO, Lyra',
+    role: 'CTO, RyRaah',
     text: 'The AI solutions TejStambh delivered were remarkably sophisticated yet user-friendly. Their deep understanding of machine learning helped us create a truly intelligent product.',
   },
   {

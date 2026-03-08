@@ -19,7 +19,7 @@ const footerLinks = {
   Portfolio: [
     { name: 'Intermost', path: '/portfolio' },
     { name: 'Access Mails', path: '/portfolio' },
-    { name: 'Lyra', path: '/portfolio' },
+    { name: 'RyRaah', path: '/portfolio' },
     { name: 'Ombase', path: '/portfolio' },
     { name: 'Nikam Interior', path: '/portfolio' },
   ],

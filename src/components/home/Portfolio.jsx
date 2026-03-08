@@ -17,7 +17,7 @@ const projects = [
     color: '#1A1A1A',
   },
   {
-    name: 'Lyra',
+    name: 'RyRaah',
     category: 'AI Application',
     description: 'Intelligent voice assistant application powered by natural language processing.',
     color: '#333333',

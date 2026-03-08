@@ -1,0 +1,187 @@
+[
+  {
+    "id": "ai-lead-generation-n8n",
+    "name": "AI Lead Generation Automation",
+    "category": "AI Automation",
+    "tags": ["n8n", "Google Gemini", "JavaScript", "HTTP API", "Google Sheets"],
+    "description": "An AI-powered lead generation workflow built with n8n and Google Gemini that automates the entire process of collecting and enriching business leads. The system captures lead details via a form, processes the data through an AI agent, retrieves additional business information through external APIs, and stores enriched results in Google Sheets — all fully automated.",
+    "keyFeatures": [
+      "Automated lead collection through form input",
+      "AI agent for lead data processing and enrichment",
+      "API integration for retrieving business information",
+      "Automated storage of leads in Google Sheets",
+      "End-to-end workflow automation using n8n"
+    ],
+    "image": "/assets/projects/ai-lead-generation.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#4F46E5",
+    "result": "Fully automated lead pipeline"
+  },
+  {
+    "id": "gemini-chatbot-workflow",
+    "name": "Gemini Chatbot Workflow",
+    "category": "AI Automation",
+    "tags": ["n8n", "Google Gemini", "LLM", "Text-to-Speech", "Webhook"],
+    "description": "A conversational AI chatbot powered by Google Gemini, orchestrated within n8n. When a user sends a message, the workflow routes it through a Basic LLM Chain to generate intelligent responses. The output is then sent to an external text-to-speech API and the final audio or text response is returned to the user via webhook.",
+    "keyFeatures": [
+      "Chat trigger for real-time user interaction",
+      "Google Gemini LLM-powered response generation",
+      "Text-to-speech conversion via external API",
+      "Webhook-based response delivery",
+      "Modular n8n workflow architecture"
+    ],
+    "image": "/assets/projects/gemini-chatbot.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#0EA5E9",
+    "result": "Real-time AI chat with voice output"
+  },
+  {
+    "id": "calendar-event-agent",
+    "name": "Calendar Event Agent",
+    "category": "AI Automation",
+    "tags": ["n8n", "AI Agent", "Google Calendar", "Memory", "NLP"],
+    "description": "An AI-powered calendar assistant that interprets natural language queries to retrieve events and check schedule availability from Google Calendar. Users can ask questions like \"What events are scheduled on October 20?\" and the agent intelligently selects the right calendar tool, fetches results, and returns event details — with context memory for follow-up queries.",
+    "keyFeatures": [
+      "Natural language scheduling queries",
+      "AI agent with tool selection logic",
+      "Google Calendar integration (get events & availability)",
+      "Conversational memory for multi-turn interactions",
+      "Returns event descriptions, dates, and links"
+    ],
+    "image": "/assets/projects/calendar-agent.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#16A34A",
+    "result": "Hands-free calendar management"
+  },
+  {
+    "id": "gmail-ai-agent",
+    "name": "Gmail AI Agent",
+    "category": "AI Automation",
+    "tags": ["n8n", "AI Agent", "OpenAI", "Gmail API", "NLP"],
+    "description": "An AI-powered Gmail assistant that sends emails automatically based on natural language instructions. Users simply type a command like \"Send email to example@gmail.com with subject Login Successful\" — the AI agent extracts the recipient, subject, and body, structures the email content via an LLM, and dispatches it through the Gmail API.",
+    "keyFeatures": [
+      "Natural language email command processing",
+      "AI-driven extraction of recipient, subject, and body",
+      "OpenAI / LLM-powered content structuring",
+      "Automatic email dispatch via Gmail API",
+      "Confirmation response to the user"
+    ],
+    "image": "/assets/projects/gmail-agent.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#DC2626",
+    "result": "Zero-click email automation"
+  },
+  {
+    "id": "deepgram-tts",
+    "name": "Deepgram Text-to-Speech",
+    "category": "AI Automation",
+    "tags": ["n8n", "Deepgram", "LLM", "Text-to-Speech", "API"],
+    "description": "A workflow that converts AI-generated text into natural-sounding speech using the Deepgram Text-to-Speech API. A user message is first processed by a Large Language Model to generate a contextual response, which is then converted into high-quality audio and returned to the user seamlessly.",
+    "keyFeatures": [
+      "LLM-powered response generation",
+      "Deepgram TTS API integration",
+      "Natural-sounding voice output",
+      "End-to-end text-to-speech pipeline",
+      "Real-time audio delivery to users"
+    ],
+    "image": "/assets/projects/deepgram-tts.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#7C3AED",
+    "result": "Instant AI voice responses"
+  },
+  {
+    "id": "intermost",
+    "name": "Intermost",
+    "category": "SaaS",
+    "tags": ["React", "Node.js", "PostgreSQL", "WebSocket"],
+    "description": "A modern SaaS platform for internal team communication and project management with real-time collaboration features.",
+    "keyFeatures": [
+      "Real-time messaging and collaboration",
+      "Project management dashboards",
+      "Team communication channels",
+      "WebSocket-powered live updates"
+    ],
+    "image": null,
+    "video": null,
+    "mediaType": "placeholder",
+    "color": "#E63946",
+    "result": "40% improvement in team productivity"
+  },
+  {
+    "id": "access-mails",
+    "name": "Access Mails",
+    "category": "AI",
+    "tags": ["Python", "TensorFlow", "React", "AWS"],
+    "description": "AI-driven email marketing platform with intelligent segmentation, A/B testing, and automated campaign optimization.",
+    "keyFeatures": [
+      "AI-powered audience segmentation",
+      "A/B testing automation",
+      "Campaign performance analytics",
+      "Automated email workflows"
+    ],
+    "image": null,
+    "video": null,
+    "mediaType": "placeholder",
+    "color": "#1A1A1A",
+    "result": "3x increase in email conversion rates"
+  },
+  {
+    "id": "ryraah",
+    "name": "RyRaah",
+    "category": "AI",
+    "tags": ["Python", "NLP", "React Native", "GCP"],
+    "description": "Intelligent voice assistant application powered by advanced NLP for customer service automation.",
+    "keyFeatures": [
+      "Natural language processing engine",
+      "Voice-based interaction",
+      "Customer service automation",
+      "Multi-platform support"
+    ],
+    "image": null,
+    "video": null,
+    "mediaType": "placeholder",
+    "color": "#333333",
+    "result": "60% reduction in support tickets"
+  },
+  {
+    "id": "ombase",
+    "name": "Ombase",
+    "category": "Cloud",
+    "tags": ["React", "Go", "Kubernetes", "AWS"],
+    "description": "Enterprise cloud management dashboard with real-time monitoring, cost optimization, and infrastructure analytics.",
+    "keyFeatures": [
+      "Real-time cloud monitoring",
+      "Cost optimization insights",
+      "Infrastructure analytics",
+      "Kubernetes orchestration"
+    ],
+    "image": null,
+    "video": null,
+    "mediaType": "placeholder",
+    "color": "#E63946",
+    "result": "50% reduction in cloud costs"
+  },
+  {
+    "id": "nikam-interior",
+    "name": "Nikam Interior",
+    "category": "Web",
+    "tags": ["Next.js", "Three.js", "Strapi", "Vercel"],
+    "description": "Modern portfolio and booking platform for an interior design studio with 3D room previews and appointment scheduling.",
+    "keyFeatures": [
+      "3D room preview",
+      "Online appointment scheduling",
+      "Portfolio showcase",
+      "CMS-powered content"
+    ],
+    "image": null,
+    "video": null,
+    "mediaType": "placeholder",
+    "color": "#1A1A1A",
+    "result": "3x more leads generated"
+  }
+]

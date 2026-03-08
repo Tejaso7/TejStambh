@@ -2,39 +2,10 @@ import { motion } from 'framer-motion'
 import ScrollReveal from '../ui/ScrollReveal'
 import { Link } from 'react-router-dom'
 import { HiArrowRight } from 'react-icons/hi'
+import allProjects from '../../data/projects.json'
 
-const projects = [
-  {
-    name: 'Intermost',
-    category: 'SaaS Platform',
-    description: 'A modern SaaS platform for internal team communication and project management.',
-    color: '#E63946',
-  },
-  {
-    name: 'Access Mails',
-    category: 'Email Automation',
-    description: 'AI-driven email marketing platform with advanced automation workflows.',
-    color: '#1A1A1A',
-  },
-  {
-    name: 'RyRaah',
-    category: 'AI Application',
-    description: 'Intelligent voice assistant application powered by natural language processing.',
-    color: '#333333',
-  },
-  {
-    name: 'Ombase',
-    category: 'Cloud Infrastructure',
-    description: 'Enterprise cloud management dashboard with real-time monitoring.',
-    color: '#E63946',
-  },
-  {
-    name: 'Nikam Interior',
-    category: 'Web Application',
-    description: 'Modern portfolio and booking platform for an interior design studio.',
-    color: '#1A1A1A',
-  },
-]
+// Show first 6 projects on homepage
+const projects = allProjects.slice(0, 6)
 
 export default function Portfolio() {
   return (

@@ -3,51 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import ScrollReveal from '../components/ui/ScrollReveal'
 import CTA from '../components/home/CTA'
 import { HiArrowRight, HiExternalLink } from 'react-icons/hi'
+import projects from '../data/projects.json'
 
-const filters = ['All', 'SaaS', 'AI', 'Web', 'Cloud']
-
-const projects = [
-  {
-    name: 'Intermost',
-    category: 'SaaS',
-    description: 'A modern SaaS platform for internal team communication and project management with real-time collaboration features.',
-    technologies: ['React', 'Node.js', 'PostgreSQL', 'WebSocket'],
-    color: '#E63946',
-    result: '40% improvement in team productivity',
-  },
-  {
-    name: 'Access Mails',
-    category: 'AI',
-    description: 'AI-driven email marketing platform with intelligent segmentation, A/B testing, and automated campaign optimization.',
-    technologies: ['Python', 'TensorFlow', 'React', 'AWS'],
-    color: '#1A1A1A',
-    result: '3x increase in email conversion rates',
-  },
-  {
-    name: 'RyRaah',
-    category: 'AI',
-    description: 'Intelligent voice assistant application powered by advanced NLP for customer service automation.',
-    technologies: ['Python', 'NLP', 'React Native', 'GCP'],
-    color: '#333333',
-    result: '60% reduction in support tickets',
-  },
-  {
-    name: 'Ombase',
-    category: 'Cloud',
-    description: 'Enterprise cloud management dashboard with real-time monitoring, cost optimization, and infrastructure analytics.',
-    technologies: ['React', 'Go', 'Kubernetes', 'AWS'],
-    color: '#E63946',
-    result: '50% reduction in cloud costs',
-  },
-  {
-    name: 'Nikam Interior',
-    category: 'Web',
-    description: 'Modern portfolio and booking platform for an interior design studio with 3D room previews and appointment scheduling.',
-    technologies: ['Next.js', 'Three.js', 'Strapi', 'Vercel'],
-    color: '#1A1A1A',
-    result: '3x more leads generated',
-  },
-]
+const filters = ['All', 'AI Automation', 'AI', 'SaaS', 'Web', 'Cloud']
 
 export default function PortfolioPage() {
   const [activeFilter, setActiveFilter] = useState('All')
@@ -134,11 +92,11 @@ export default function PortfolioPage() {
                       <h3 className="font-heading font-semibold text-lg mt-1 mb-2">{project.name}</h3>
                       <p className="text-secondary text-sm leading-relaxed mb-4 flex-1">{project.description}</p>
                       
-                      {/* Technologies */}
+                      {/* Tags */}
                       <div className="flex flex-wrap gap-2 mb-4">
-                        {project.technologies.map(tech => (
-                          <span key={tech} className="text-xs bg-light-gray text-secondary px-2.5 py-1 rounded-full">
-                            {tech}
+                        {project.tags.map(tag => (
+                          <span key={tag} className="text-xs bg-light-gray text-secondary px-2.5 py-1 rounded-full">
+                            {tag}
                           </span>
                         ))}
                       </div>

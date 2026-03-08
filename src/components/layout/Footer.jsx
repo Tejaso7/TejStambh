@@ -40,11 +40,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2 mb-5">
-              <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-10 w-auto" />
-              <span className="text-xl font-heading font-bold text-white">
-                Tej<span className="text-accent">Stambh</span>
-              </span>
+            <Link to="/" className="flex items-center mb-5">
+              <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh - Pillar of Innovation" className="h-14 w-auto" />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
               Pillar of Innovations — Transforming ideas into scalable digital products 

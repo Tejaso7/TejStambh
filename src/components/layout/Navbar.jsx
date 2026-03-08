@@ -44,12 +44,8 @@ export default function Navbar() {
       <div className="container-custom">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-10 w-auto transition-transform duration-300 group-hover:scale-110" />
-            <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-10 w-auto transition-transform duration-300 group-hover:scale-110" />
-            <span className="text-xl font-heading font-bold text-primary">
-              Tej<span className="text-accent">Stambh</span>
-            </span>
+          <Link to="/" className="flex items-center group">
+            <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh - Pillar of Innovation" className="h-14 w-auto transition-transform duration-300 group-hover:scale-105" />
           </Link>
 
           {/* Desktop Nav */}

@@ -1,16 +1,16 @@
 [
   {
     "id": "ai-lead-generation-n8n",
-    "name": "AI Lead Generation Automation",
+    "name": "LeadFlow AI — Intelligent Lead Capture & Enrichment",
     "category": "AI Automation",
     "tags": ["n8n", "Google Gemini", "JavaScript", "HTTP API", "Google Sheets"],
-    "description": "An AI-powered lead generation workflow built with n8n and Google Gemini that automates the entire process of collecting and enriching business leads. The system captures lead details via a form, processes the data through an AI agent, retrieves additional business information through external APIs, and stores enriched results in Google Sheets — all fully automated.",
+    "description": "A turnkey AI lead generation engine that captures prospect data, enriches it with business intelligence via external APIs, and delivers sales-ready leads directly to your spreadsheet — eliminating hours of manual research and ensuring your pipeline stays full.",
     "keyFeatures": [
-      "Automated lead collection through form input",
-      "AI agent for lead data processing and enrichment",
-      "API integration for retrieving business information",
-      "Automated storage of leads in Google Sheets",
-      "End-to-end workflow automation using n8n"
+      "Automated lead capture and qualification",
+      "AI-powered data enrichment with business context",
+      "Seamless CRM and Google Sheets integration",
+      "Third-party API orchestration for company intel",
+      "End-to-end workflow with zero manual intervention"
     ],
     "image": "/assets/projects/ai-lead-generation.png",
     "video": null,
@@ -20,16 +20,16 @@
   },
   {
     "id": "gemini-chatbot-workflow",
-    "name": "Gemini Chatbot Workflow",
+    "name": "ConversaAI — Voice-Enabled Conversational Assistant",
     "category": "AI Automation",
     "tags": ["n8n", "Google Gemini", "LLM", "Text-to-Speech", "Webhook"],
-    "description": "A conversational AI chatbot powered by Google Gemini, orchestrated within n8n. When a user sends a message, the workflow routes it through a Basic LLM Chain to generate intelligent responses. The output is then sent to an external text-to-speech API and the final audio or text response is returned to the user via webhook.",
+    "description": "A production-ready conversational AI assistant that delivers instant, intelligent responses in both text and natural-sounding audio. Ideal for customer support portals, internal helpdesks, and voice-first user experiences — deployable via webhook with no frontend changes required.",
     "keyFeatures": [
-      "Chat trigger for real-time user interaction",
-      "Google Gemini LLM-powered response generation",
-      "Text-to-speech conversion via external API",
-      "Webhook-based response delivery",
-      "Modular n8n workflow architecture"
+      "Real-time conversational AI with sub-second responses",
+      "Google Gemini LLM for context-aware answers",
+      "Built-in text-to-speech for voice-first experiences",
+      "Webhook integration for plug-and-play deployment",
+      "Modular architecture for easy customization"
     ],
     "image": "/assets/projects/gemini-chatbot.png",
     "video": null,
@@ -39,16 +39,16 @@
   },
   {
     "id": "calendar-event-agent",
-    "name": "Calendar Event Agent",
+    "name": "ScheduleIQ — AI Calendar & Availability Manager",
     "category": "AI Automation",
     "tags": ["n8n", "AI Agent", "Google Calendar", "Memory", "NLP"],
-    "description": "An AI-powered calendar assistant that interprets natural language queries to retrieve events and check schedule availability from Google Calendar. Users can ask questions like \"What events are scheduled on October 20?\" and the agent intelligently selects the right calendar tool, fetches results, and returns event details — with context memory for follow-up queries.",
+    "description": "An intelligent scheduling assistant that lets teams query calendars using plain English. Ask \"Am I free Thursday afternoon?\" or \"Show next week's meetings\" and get instant, accurate answers — with conversational memory that understands follow-up questions in context.",
     "keyFeatures": [
-      "Natural language scheduling queries",
-      "AI agent with tool selection logic",
-      "Google Calendar integration (get events & availability)",
-      "Conversational memory for multi-turn interactions",
-      "Returns event descriptions, dates, and links"
+      "Natural language calendar queries",
+      "Smart tool selection for events & availability",
+      "Google Calendar deep integration",
+      "Multi-turn conversational memory",
+      "Instant event summaries with direct links"
     ],
     "image": "/assets/projects/calendar-agent.png",
     "video": null,
@@ -58,16 +58,16 @@
   },
   {
     "id": "gmail-ai-agent",
-    "name": "Gmail AI Agent",
+    "name": "MailPilot AI — Smart Email Dispatch Agent",
     "category": "AI Automation",
     "tags": ["n8n", "AI Agent", "OpenAI", "Gmail API", "NLP"],
-    "description": "An AI-powered Gmail assistant that sends emails automatically based on natural language instructions. Users simply type a command like \"Send email to example@gmail.com with subject Login Successful\" — the AI agent extracts the recipient, subject, and body, structures the email content via an LLM, and dispatches it through the Gmail API.",
+    "description": "A hands-free email agent that sends professionally structured emails from a single natural language command. Say \"Email the client about the project update\" — the AI drafts the content, fills in recipients and subject lines, and dispatches instantly via Gmail. Perfect for sales teams, support desks, and workflow triggers.",
     "keyFeatures": [
-      "Natural language email command processing",
-      "AI-driven extraction of recipient, subject, and body",
-      "OpenAI / LLM-powered content structuring",
-      "Automatic email dispatch via Gmail API",
-      "Confirmation response to the user"
+      "Plain-English email commands",
+      "AI-powered recipient, subject, and body extraction",
+      "LLM-crafted professional email content",
+      "One-click dispatch via Gmail API",
+      "Instant delivery confirmation"
     ],
     "image": "/assets/projects/gmail-agent.png",
     "video": null,
@@ -77,16 +77,16 @@
   },
   {
     "id": "deepgram-tts",
-    "name": "Deepgram Text-to-Speech",
+    "name": "VoiceCraft AI — Intelligent Text-to-Speech Engine",
     "category": "AI Automation",
     "tags": ["n8n", "Deepgram", "LLM", "Text-to-Speech", "API"],
-    "description": "A workflow that converts AI-generated text into natural-sounding speech using the Deepgram Text-to-Speech API. A user message is first processed by a Large Language Model to generate a contextual response, which is then converted into high-quality audio and returned to the user seamlessly.",
+    "description": "A plug-and-play voice engine that transforms AI-generated responses into studio-quality speech in real time. Powered by Deepgram's TTS API and an LLM backend, it's built for IVR systems, accessibility features, voice bots, and any product that needs a human-like voice layer.",
     "keyFeatures": [
-      "LLM-powered response generation",
-      "Deepgram TTS API integration",
-      "Natural-sounding voice output",
+      "LLM-powered contextual response generation",
+      "Studio-quality Deepgram voice synthesis",
+      "Real-time audio streaming",
       "End-to-end text-to-speech pipeline",
-      "Real-time audio delivery to users"
+      "API-ready for any product integration"
     ],
     "image": "/assets/projects/deepgram-tts.png",
     "video": null,
@@ -96,15 +96,15 @@
   },
   {
     "id": "intermost",
-    "name": "Intermost",
+    "name": "Intermost — Real-Time Team Collaboration Platform",
     "category": "SaaS",
     "tags": ["React", "Node.js", "PostgreSQL", "WebSocket"],
-    "description": "A modern SaaS platform for internal team communication and project management with real-time collaboration features.",
+    "description": "A full-featured SaaS collaboration suite that unifies team messaging, project tracking, and task management in one real-time interface. Built for distributed teams that need to move fast without losing context.",
     "keyFeatures": [
-      "Real-time messaging and collaboration",
-      "Project management dashboards",
-      "Team communication channels",
-      "WebSocket-powered live updates"
+      "Instant messaging with WebSocket-powered live sync",
+      "Visual project management dashboards",
+      "Organized team channels and threads",
+      "Role-based access and workspace controls"
     ],
     "image": null,
     "video": null,
@@ -114,15 +114,15 @@
   },
   {
     "id": "access-mails",
-    "name": "Access Mails",
+    "name": "AccessMail — AI-Powered Email Marketing Platform",
     "category": "AI",
     "tags": ["Python", "TensorFlow", "React", "AWS"],
-    "description": "AI-driven email marketing platform with intelligent segmentation, A/B testing, and automated campaign optimization.",
+    "description": "An intelligent email marketing engine that uses machine learning to segment audiences, optimize send times, and maximize campaign ROI. From automated A/B testing to performance analytics — everything your marketing team needs to convert more with less effort.",
     "keyFeatures": [
-      "AI-powered audience segmentation",
-      "A/B testing automation",
-      "Campaign performance analytics",
-      "Automated email workflows"
+      "ML-driven audience segmentation",
+      "Automated A/B testing and optimization",
+      "Real-time campaign performance analytics",
+      "Smart email workflow automation"
     ],
     "image": null,
     "video": null,
@@ -132,15 +132,15 @@
   },
   {
     "id": "ryraah",
-    "name": "RyRaah",
+    "name": "RyRaah — Intelligent Voice Assistant for Customer Support",
     "category": "AI",
     "tags": ["Python", "NLP", "React Native", "GCP"],
-    "description": "Intelligent voice assistant application powered by advanced NLP for customer service automation.",
+    "description": "A voice-first AI assistant that automates customer support across mobile and web. Powered by advanced NLP, it understands intent, resolves common queries instantly, and escalates complex issues — cutting support costs while improving customer satisfaction.",
     "keyFeatures": [
-      "Natural language processing engine",
-      "Voice-based interaction",
-      "Customer service automation",
-      "Multi-platform support"
+      "Advanced NLP engine for intent recognition",
+      "Voice-based conversational interface",
+      "Automated resolution of common support queries",
+      "Cross-platform deployment (iOS, Android, Web)"
     ],
     "image": null,
     "video": null,
@@ -150,15 +150,15 @@
   },
   {
     "id": "ombase",
-    "name": "Ombase",
+    "name": "Ombase — Enterprise Cloud Management Dashboard",
     "category": "Cloud",
     "tags": ["React", "Go", "Kubernetes", "AWS"],
-    "description": "Enterprise cloud management dashboard with real-time monitoring, cost optimization, and infrastructure analytics.",
+    "description": "A unified cloud operations dashboard that gives engineering teams real-time visibility into infrastructure health, resource utilization, and cost. Designed for enterprises running multi-cluster Kubernetes environments on AWS.",
     "keyFeatures": [
-      "Real-time cloud monitoring",
-      "Cost optimization insights",
-      "Infrastructure analytics",
-      "Kubernetes orchestration"
+      "Real-time infrastructure health monitoring",
+      "Automated cost optimization recommendations",
+      "Advanced infrastructure analytics and alerts",
+      "Kubernetes multi-cluster orchestration"
     ],
     "image": null,
     "video": null,
@@ -168,15 +168,15 @@
   },
   {
     "id": "nikam-interior",
-    "name": "Nikam Interior",
+    "name": "Nikam Interior — Immersive Design Studio Platform",
     "category": "Web",
     "tags": ["Next.js", "Three.js", "Strapi", "Vercel"],
-    "description": "Modern portfolio and booking platform for an interior design studio with 3D room previews and appointment scheduling.",
+    "description": "A premium digital experience for an interior design studio, featuring interactive 3D room previews, an online portfolio showcase, and integrated appointment booking — designed to convert visitors into clients.",
     "keyFeatures": [
-      "3D room preview",
-      "Online appointment scheduling",
-      "Portfolio showcase",
-      "CMS-powered content"
+      "Interactive 3D room visualization",
+      "Seamless appointment scheduling",
+      "Curated project portfolio gallery",
+      "CMS-powered content management"
     ],
     "image": null,
     "video": null,
@@ -186,16 +186,16 @@
   },
   {
     "id": "gemini-weather-assistant",
-    "name": "Gemini Weather Assistant",
+    "name": "WeatherIQ — Real-Time Conversational Weather Platform",
     "category": "AI Automation",
     "tags": ["FastAPI", "Streamlit", "Google Gemini", "Open-Meteo API", "Python"],
-    "description": "An AI-powered weather assistant that answers natural language queries like \"What's the weather in Mumbai?\" using Google Gemini and the Open-Meteo API. Built with FastAPI on the backend and Streamlit on the frontend, it delivers real-time, conversational weather updates through a clean, chat-style interface.",
+    "description": "A conversational weather intelligence platform that lets users ask for forecasts in plain English and receive real-time, location-specific updates. Powered by Google Gemini and Open-Meteo, it's ideal for logistics dashboards, travel apps, or any product needing weather-aware decision-making.",
     "keyFeatures": [
-      "Natural language weather queries via Gemini AI",
-      "Real-time weather data from Open-Meteo API",
-      "FastAPI backend for efficient request handling",
-      "Streamlit chat-style UI",
-      "City-based weather lookup"
+      "Natural language weather queries",
+      "Real-time data from Open-Meteo API",
+      "High-performance FastAPI backend",
+      "Intuitive chat-style user interface",
+      "Global city-level weather lookup"
     ],
     "image": "/assets/projects/gemini-weather.png",
     "video": null,
@@ -205,16 +205,16 @@
   },
   {
     "id": "ollama-mcp-chatbot",
-    "name": "Ollama MCP AI Chatbot",
+    "name": "ToolChain AI — Multi-Tool Conversational Agent",
     "category": "AI Automation",
     "tags": ["Ollama", "LLaMA", "MCP", "FastAPI", "Streamlit", "Python"],
-    "description": "An AI chatbot powered by a local Ollama LLaMA model with MCP (Model Context Protocol) for real-time tool access. The chatbot fetches live information — weather, YouTube links, and news — by calling external APIs. A Streamlit chat interface lets users converse with the AI while the FastAPI backend orchestrates tool calls seamlessly.",
+    "description": "A self-hosted AI assistant that goes beyond chat — it calls live tools to fetch weather, search YouTube, pull news headlines, and more. Powered by a local LLaMA model with Model Context Protocol (MCP), it keeps data private while delivering real-time, actionable intelligence.",
     "keyFeatures": [
-      "Local Ollama LLaMA model integration",
-      "MCP tool calling for real-time data",
-      "Tools for weather, YouTube search, and news",
-      "Streamlit chat interface",
-      "FastAPI backend server"
+      "Privacy-first local LLM deployment",
+      "MCP-powered real-time tool calling",
+      "Extensible tool ecosystem (weather, search, news)",
+      "Polished Streamlit chat interface",
+      "FastAPI backend for reliable orchestration"
     ],
     "image": "/assets/projects/ollama-mcp-chatbot.png",
     "video": null,
@@ -224,16 +224,16 @@
   },
   {
     "id": "rag-pdf-chatbot",
-    "name": "RAG-PDF Chatbot",
+    "name": "DocuQuery AI — Intelligent Document Q&A Assistant",
     "category": "AI Automation",
     "tags": ["Streamlit", "LangChain", "FAISS", "Google Gemini", "Python"],
-    "description": "An intelligent AI assistant that lets users upload multiple PDFs and instantly retrieve accurate, context-aware answers directly from the content. Built with Streamlit, LangChain, FAISS vector search, and Google Gemini AI, it combines retrieval-augmented generation with state-of-the-art generative AI for precise, document-grounded responses — complete with conversation history tracking.",
+    "description": "An enterprise-ready document intelligence tool that lets users upload PDFs and get precise, citation-backed answers instantly. Combines FAISS vector search with Google Gemini's generative AI to deliver answers grounded in your actual documents — ideal for legal, compliance, HR, and knowledge management teams.",
     "keyFeatures": [
-      "Multi-PDF upload and processing",
-      "RAG-based AI retrieval with FAISS vector search",
-      "Google Gemini integration for contextually accurate answers",
-      "Conversation history tracking with CSV export",
-      "Works with personal and professional documents"
+      "Bulk PDF upload and intelligent indexing",
+      "RAG-powered retrieval with FAISS vector search",
+      "Gemini AI for contextually grounded answers",
+      "Conversation history with CSV export",
+      "Works across any document type or domain"
     ],
     "image": "/assets/projects/rag-pdf-chatbot.png",
     "video": null,
@@ -243,16 +243,16 @@
   },
   {
     "id": "yolov11-projects",
-    "name": "YOLOv11 Computer Vision Projects",
+    "name": "VisionTrack — Real-Time Object Detection & Gesture Control",
     "category": "AI",
     "tags": ["YOLOv11", "Mediapipe", "OpenCV", "Python", "Computer Vision"],
-    "description": "A set of computer vision projects powered by YOLOv11 and Mediapipe. Includes a real-time car counting system that tracks both incoming and outgoing traffic on roads, and a hand-gesture-controlled interface using Mediapipe for intuitive cursor control — all processing live video streams with optimized model performance.",
+    "description": "A computer vision suite featuring real-time vehicle counting for traffic management and a touchless gesture-controlled interface. Powered by YOLOv11 and Mediapipe, these solutions are built for smart city infrastructure, warehouse automation, and accessibility-first product design.",
     "keyFeatures": [
-      "Real-time car detection and counting with YOLOv11",
-      "Incoming and outgoing traffic tracking",
-      "Hand-gesture-controlled cursor via Mediapipe",
-      "Live video stream processing",
-      "Optimized model tuning for accuracy"
+      "Real-time vehicle detection and directional counting",
+      "Bi-directional traffic flow analytics",
+      "Touchless gesture-based UI control",
+      "Live video stream processing at scale",
+      "Production-optimized model performance"
     ],
     "image": "/assets/projects/yolov11-cv.png",
     "video": null,
@@ -262,16 +262,16 @@
   },
   {
     "id": "ai-part-identification",
-    "name": "AI-Powered Part Identification System",
+    "name": "PartVision AI — Industrial Component Recognition System",
     "category": "AI",
     "tags": ["Python", "Computer Vision", "Deep Learning", "PyTorch", "FastAPI", "Vector Databases", "RAG"],
-    "description": "An AI-powered visual part identification system that bridges the gap between 3D CAD models and real-world components. The system processes and indexes engineering part data, allowing users to identify machine parts using visual input — automating part discovery and improving operational efficiency in equipment maintenance workflows.",
+    "description": "An industrial-grade visual recognition system that identifies machine parts from photos and maps them to 3D CAD models in seconds. Purpose-built for equipment maintenance teams, it eliminates manual part lookups, reduces downtime, and streamlines procurement workflows.",
     "keyFeatures": [
-      "Visual part identification from real-world images",
-      "3D CAD model to real-component mapping",
-      "Engineering part data indexing and retrieval",
-      "RAG pipeline for intelligent part lookup",
-      "Cloud-based storage and vector search"
+      "Instant part identification from real-world images",
+      "3D CAD model to physical component mapping",
+      "Searchable engineering part index",
+      "RAG-powered intelligent part retrieval",
+      "Scalable cloud storage with vector search"
     ],
     "image": "/assets/projects/ai-part-identification.png",
     "video": null,
@@ -281,16 +281,16 @@
   },
   {
     "id": "agentic-ai-business-insights",
-    "name": "Agentic AI Business Insights Platform",
+    "name": "InsightAgent — AI-Powered Business Analytics Platform",
     "category": "AI",
     "tags": ["Python", "LLMs", "RAG", "LangChain", "FastAPI", "Pandas", "React", "SQL"],
-    "description": "An agentic AI analytics platform that processes dealership operational data (Excel and structured datasets) and generates deep analytical insights using LLM-based reasoning. The application automatically detects weak business areas and provides decision-ready summaries through a conversational AI interface.",
+    "description": "An agentic analytics platform that turns raw operational data into executive-ready insights. Upload spreadsheets or connect databases — the AI autonomously identifies performance gaps, surfaces hidden trends, and delivers actionable recommendations through a conversational interface.",
     "keyFeatures": [
-      "LLM-based reasoning over operational data",
-      "Automatic detection of weak business areas",
-      "Decision-ready summaries via conversational AI",
-      "SQL + vector routing for hybrid data access",
-      "Excel and structured dataset processing"
+      "Autonomous LLM-based data analysis",
+      "Automatic weak-area detection and recommendations",
+      "Conversational AI for decision-ready summaries",
+      "Hybrid SQL + vector routing for complex queries",
+      "Excel, CSV, and structured dataset support"
     ],
     "image": "/assets/projects/agentic-business-insights.png",
     "video": null,
@@ -300,16 +300,16 @@
   },
   {
     "id": "ai-computer-use-training-agent",
-    "name": "AI Computer-Use Training Agent",
+    "name": "TrainBot AI — Automated Employee Onboarding Agent",
     "category": "AI Automation",
     "tags": ["Python", "LLMs", "PyAutoGUI", "TTS", "FastAPI", "Automation"],
-    "description": "An AI-powered computer-use agent that assists in training employees by automatically navigating enterprise software interfaces. The agent demonstrates step-by-step actions while providing voice-based guidance, enabling hands-free learning and significantly reducing onboarding time.",
+    "description": "An AI training agent that onboards new employees by autonomously navigating enterprise software and narrating each step with voice guidance. Reduces trainer dependency, cuts onboarding time in half, and ensures consistent training quality across the organization.",
     "keyFeatures": [
-      "Automated navigation of enterprise software interfaces",
-      "Step-by-step action demonstration",
-      "Voice-based guidance via speech synthesis",
-      "Hands-free employee training",
-      "Reduced onboarding time"
+      "Autonomous enterprise software navigation",
+      "Interactive step-by-step demonstrations",
+      "Real-time voice narration via speech synthesis",
+      "Hands-free, self-paced employee training",
+      "Dramatically reduced onboarding timelines"
     ],
     "image": "/assets/projects/ai-training-agent.png",
     "video": null,
@@ -319,16 +319,16 @@
   },
   {
     "id": "ai-video-generation-platform",
-    "name": "AI Video Generation Platform",
+    "name": "VidGen Studio — AI Video Creation Platform",
     "category": "AI",
     "tags": ["React", "Node.js", "FastAPI", "Sora API", "Cloud Storage", "REST APIs"],
-    "description": "A video generation platform that enables users to generate AI videos using advanced generative models through an easy-to-use interface. The system manages multiple requests, handles API orchestration, and provides scalable video generation workflows.",
+    "description": "A scalable video generation platform that empowers marketing teams and content creators to produce AI-generated videos on demand. With intelligent queue management and Sora API integration, it handles high-volume production without compromising quality or speed.",
     "keyFeatures": [
-      "AI video generation via generative models",
-      "Sora API integration",
-      "Scalable request queue management",
-      "API orchestration for multi-step workflows",
-      "User-friendly generation interface"
+      "On-demand AI video generation",
+      "Sora API-powered generative models",
+      "Intelligent request queue management",
+      "Multi-step API orchestration",
+      "Intuitive creator-friendly interface"
     ],
     "image": "/assets/projects/ai-video-generation.png",
     "video": null,
@@ -338,16 +338,16 @@
   },
   {
     "id": "ai-form-filling-system",
-    "name": "Hands-Free AI Form Filling System",
+    "name": "FormFlow AI — Autonomous Form Automation Agent",
     "category": "AI Automation",
     "tags": ["Python", "Agentic AI", "Browser Automation", "LLM APIs", "FastAPI"],
-    "description": "A production-grade AI automation tool that fills complex forms using natural language instructions. The system uses an AI agent capable of understanding the interface and performing actions autonomously — turning plain-text commands into completed form submissions.",
+    "description": "A production-grade automation agent that fills complex web forms from plain-English instructions. The AI understands form layouts, selects the right fields, and submits data autonomously — eliminating repetitive data entry for operations, HR, and back-office teams.",
     "keyFeatures": [
-      "Natural language instruction processing",
-      "Autonomous form understanding and filling",
-      "Browser automation with AI agent control",
-      "LLM-powered interface comprehension",
-      "Production-grade reliability"
+      "Plain-English instruction processing",
+      "Autonomous form field detection and filling",
+      "AI-controlled browser automation",
+      "LLM-powered interface understanding",
+      "Enterprise-grade reliability and accuracy"
     ],
     "image": "/assets/projects/ai-form-filling.png",
     "video": null,

@@ -5,7 +5,7 @@ import CTA from '../components/home/CTA'
 import { HiArrowRight, HiExternalLink } from 'react-icons/hi'
 import projects from '../data/projects.json'
 
-const filters = ['All', 'AI Automation', 'AI', 'SaaS', 'Web', 'Cloud']
+const filters = ['All', 'Web', 'AI Automation', 'AI']
 
 export default function PortfolioPage() {
   const [activeFilter, setActiveFilter] = useState('All')

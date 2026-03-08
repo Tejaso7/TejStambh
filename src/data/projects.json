@@ -96,75 +96,98 @@
   },
   {
     "id": "intermost",
-    "name": "Intermost — Real-Time Team Collaboration Platform",
-    "category": "SaaS",
-    "tags": ["React", "Node.js", "PostgreSQL", "WebSocket"],
-    "description": "A full-featured SaaS collaboration suite that unifies team messaging, project tracking, and task management in one real-time interface. Built for distributed teams that need to move fast without losing context.",
+    "name": "Intermost — MBBS Study Abroad Consultancy Platform",
+    "category": "Web",
+    "tags": ["React", "Node.js", "PostgreSQL", "SEO"],
+    "description": "A comprehensive digital platform for an MBBS study abroad consultancy, helping aspiring medical students explore university options, compare countries, and connect with counselors. Designed to build trust, generate qualified leads, and streamline the entire admissions journey — live at intermost.in & intermost.eu.",
     "keyFeatures": [
-      "Instant messaging with WebSocket-powered live sync",
-      "Visual project management dashboards",
-      "Organized team channels and threads",
-      "Role-based access and workspace controls"
+      "University and country comparison tools",
+      "Lead capture and counselor booking system",
+      "SEO-optimized for study abroad keywords",
+      "Multi-region deployment (.in & .eu domains)"
     ],
     "image": null,
     "video": null,
     "mediaType": "placeholder",
     "color": "#E63946",
-    "result": "40% improvement in team productivity"
+    "result": "Increased student enrollment inquiries",
+    "liveUrl": "https://intermost.in"
   },
   {
     "id": "access-mails",
-    "name": "AccessMail — AI-Powered Email Marketing Platform",
-    "category": "AI",
-    "tags": ["Python", "TensorFlow", "React", "AWS"],
-    "description": "An intelligent email marketing engine that uses machine learning to segment audiences, optimize send times, and maximize campaign ROI. From automated A/B testing to performance analytics — everything your marketing team needs to convert more with less effort.",
+    "name": "AccessMails — Professional Business Solutions Website",
+    "category": "Web",
+    "tags": ["React", "Node.js", "Tailwind CSS", "SEO"],
+    "description": "A polished corporate website built to establish brand authority, showcase service offerings, and drive client inquiries. Featuring a modern design, responsive layout, and conversion-optimized pages — engineered to turn visitors into business opportunities. Live at accessmails.in.",
     "keyFeatures": [
-      "ML-driven audience segmentation",
-      "Automated A/B testing and optimization",
-      "Real-time campaign performance analytics",
-      "Smart email workflow automation"
+      "Professional brand identity and design",
+      "Service showcase with clear CTAs",
+      "Responsive design across all devices",
+      "SEO-optimized for business visibility"
     ],
     "image": null,
     "video": null,
     "mediaType": "placeholder",
     "color": "#1A1A1A",
-    "result": "3x increase in email conversion rates"
+    "result": "Strong online brand presence established",
+    "liveUrl": "https://accessmails.in"
   },
   {
     "id": "ryraah",
-    "name": "RyRaah — Intelligent Voice Assistant for Customer Support",
-    "category": "AI",
-    "tags": ["Python", "NLP", "React Native", "GCP"],
-    "description": "A voice-first AI assistant that automates customer support across mobile and web. Powered by advanced NLP, it understands intent, resolves common queries instantly, and escalates complex issues — cutting support costs while improving customer satisfaction.",
+    "name": "RyRaah — Premium Women's Jewelry E-Commerce Store",
+    "category": "Web",
+    "tags": ["React", "E-Commerce", "Payment Gateway", "Tailwind CSS"],
+    "description": "A stunning e-commerce platform for a women's jewelry brand, designed to showcase collections with high-quality visuals, seamless product browsing, and a smooth checkout experience. Built to captivate shoppers and convert interest into sales. Live at ryraah.in.",
     "keyFeatures": [
-      "Advanced NLP engine for intent recognition",
-      "Voice-based conversational interface",
-      "Automated resolution of common support queries",
-      "Cross-platform deployment (iOS, Android, Web)"
+      "Visually rich jewelry catalog with zoom & detail views",
+      "Smooth cart and checkout experience",
+      "Mobile-first responsive design",
+      "Product filtering by category, price, and style"
     ],
     "image": null,
     "video": null,
     "mediaType": "placeholder",
     "color": "#333333",
-    "result": "60% reduction in support tickets"
+    "result": "Elevated online jewelry shopping experience",
+    "liveUrl": "https://ryraah.in"
   },
   {
     "id": "ombase",
-    "name": "Ombase — Enterprise Cloud Management Dashboard",
-    "category": "Cloud",
-    "tags": ["React", "Go", "Kubernetes", "AWS"],
-    "description": "A unified cloud operations dashboard that gives engineering teams real-time visibility into infrastructure health, resource utilization, and cost. Designed for enterprises running multi-cluster Kubernetes environments on AWS.",
+    "name": "Ombase — Corporate Business & Services Website",
+    "category": "Web",
+    "tags": ["React", "Node.js", "Tailwind CSS", "SEO"],
+    "description": "A clean, professional business website crafted to communicate brand value, highlight core services, and generate leads. With a focus on clarity and credibility, it positions the company as a trusted partner for prospective clients. Live at ombase.in.",
     "keyFeatures": [
-      "Real-time infrastructure health monitoring",
-      "Automated cost optimization recommendations",
-      "Advanced infrastructure analytics and alerts",
-      "Kubernetes multi-cluster orchestration"
+      "Conversion-focused service pages",
+      "Professional brand storytelling",
+      "Contact forms and lead capture integrations",
+      "Fully responsive and fast-loading"
     ],
     "image": null,
     "video": null,
     "mediaType": "placeholder",
     "color": "#E63946",
-    "result": "50% reduction in cloud costs"
+    "result": "Increased client inquiries and credibility",
+    "liveUrl": "https://ombase.in"
+  },
+  {
+    "id": "krishnakala",
+    "name": "KrishnaKala — Online Plant Store & Nursery",
+    "category": "Web",
+    "tags": ["React", "E-Commerce", "Payment Gateway", "Tailwind CSS"],
+    "description": "A vibrant e-commerce platform for a plant nursery, making it effortless for customers to browse, select, and order plants online. Featuring rich product imagery, care guides, and a seamless checkout — designed to bring the nursery experience to every doorstep. Live at krishnakala.in.",
+    "keyFeatures": [
+      "Curated plant catalog with detailed care guides",
+      "Easy-to-use cart and checkout flow",
+      "Mobile-responsive design for on-the-go shopping",
+      "Category-based browsing (indoor, outdoor, flowering, etc.)"
+    ],
+    "image": null,
+    "video": null,
+    "mediaType": "placeholder",
+    "color": "#15803D",
+    "result": "Seamless online plant shopping experience",
+    "liveUrl": "https://krishnakala.in"
   },
   {
     "id": "nikam-interior",

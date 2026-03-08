@@ -183,5 +183,176 @@
     "mediaType": "placeholder",
     "color": "#1A1A1A",
     "result": "3x more leads generated"
+  },
+  {
+    "id": "gemini-weather-assistant",
+    "name": "Gemini Weather Assistant",
+    "category": "AI Automation",
+    "tags": ["FastAPI", "Streamlit", "Google Gemini", "Open-Meteo API", "Python"],
+    "description": "An AI-powered weather assistant that answers natural language queries like \"What's the weather in Mumbai?\" using Google Gemini and the Open-Meteo API. Built with FastAPI on the backend and Streamlit on the frontend, it delivers real-time, conversational weather updates through a clean, chat-style interface.",
+    "keyFeatures": [
+      "Natural language weather queries via Gemini AI",
+      "Real-time weather data from Open-Meteo API",
+      "FastAPI backend for efficient request handling",
+      "Streamlit chat-style UI",
+      "City-based weather lookup"
+    ],
+    "image": "/assets/projects/gemini-weather.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#0284C7",
+    "result": "Real-time conversational weather updates"
+  },
+  {
+    "id": "ollama-mcp-chatbot",
+    "name": "Ollama MCP AI Chatbot",
+    "category": "AI Automation",
+    "tags": ["Ollama", "LLaMA", "MCP", "FastAPI", "Streamlit", "Python"],
+    "description": "An AI chatbot powered by a local Ollama LLaMA model with MCP (Model Context Protocol) for real-time tool access. The chatbot fetches live information — weather, YouTube links, and news — by calling external APIs. A Streamlit chat interface lets users converse with the AI while the FastAPI backend orchestrates tool calls seamlessly.",
+    "keyFeatures": [
+      "Local Ollama LLaMA model integration",
+      "MCP tool calling for real-time data",
+      "Tools for weather, YouTube search, and news",
+      "Streamlit chat interface",
+      "FastAPI backend server"
+    ],
+    "image": "/assets/projects/ollama-mcp-chatbot.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#6D28D9",
+    "result": "AI assistant with live tool-calling capabilities"
+  },
+  {
+    "id": "rag-pdf-chatbot",
+    "name": "RAG-PDF Chatbot",
+    "category": "AI Automation",
+    "tags": ["Streamlit", "LangChain", "FAISS", "Google Gemini", "Python"],
+    "description": "An intelligent AI assistant that lets users upload multiple PDFs and instantly retrieve accurate, context-aware answers directly from the content. Built with Streamlit, LangChain, FAISS vector search, and Google Gemini AI, it combines retrieval-augmented generation with state-of-the-art generative AI for precise, document-grounded responses — complete with conversation history tracking.",
+    "keyFeatures": [
+      "Multi-PDF upload and processing",
+      "RAG-based AI retrieval with FAISS vector search",
+      "Google Gemini integration for contextually accurate answers",
+      "Conversation history tracking with CSV export",
+      "Works with personal and professional documents"
+    ],
+    "image": "/assets/projects/rag-pdf-chatbot.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#059669",
+    "result": "Instant context-aware answers from any PDF"
+  },
+  {
+    "id": "yolov11-projects",
+    "name": "YOLOv11 Computer Vision Projects",
+    "category": "AI",
+    "tags": ["YOLOv11", "Mediapipe", "OpenCV", "Python", "Computer Vision"],
+    "description": "A set of computer vision projects powered by YOLOv11 and Mediapipe. Includes a real-time car counting system that tracks both incoming and outgoing traffic on roads, and a hand-gesture-controlled interface using Mediapipe for intuitive cursor control — all processing live video streams with optimized model performance.",
+    "keyFeatures": [
+      "Real-time car detection and counting with YOLOv11",
+      "Incoming and outgoing traffic tracking",
+      "Hand-gesture-controlled cursor via Mediapipe",
+      "Live video stream processing",
+      "Optimized model tuning for accuracy"
+    ],
+    "image": "/assets/projects/yolov11-cv.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#D97706",
+    "result": "Real-time object detection and gesture control"
+  },
+  {
+    "id": "ai-part-identification",
+    "name": "AI-Powered Part Identification System",
+    "category": "AI",
+    "tags": ["Python", "Computer Vision", "Deep Learning", "PyTorch", "FastAPI", "Vector Databases", "RAG"],
+    "description": "An AI-powered visual part identification system that bridges the gap between 3D CAD models and real-world components. The system processes and indexes engineering part data, allowing users to identify machine parts using visual input — automating part discovery and improving operational efficiency in equipment maintenance workflows.",
+    "keyFeatures": [
+      "Visual part identification from real-world images",
+      "3D CAD model to real-component mapping",
+      "Engineering part data indexing and retrieval",
+      "RAG pipeline for intelligent part lookup",
+      "Cloud-based storage and vector search"
+    ],
+    "image": "/assets/projects/ai-part-identification.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#0F766E",
+    "result": "Automated part discovery for maintenance workflows"
+  },
+  {
+    "id": "agentic-ai-business-insights",
+    "name": "Agentic AI Business Insights Platform",
+    "category": "AI",
+    "tags": ["Python", "LLMs", "RAG", "LangChain", "FastAPI", "Pandas", "React", "SQL"],
+    "description": "An agentic AI analytics platform that processes dealership operational data (Excel and structured datasets) and generates deep analytical insights using LLM-based reasoning. The application automatically detects weak business areas and provides decision-ready summaries through a conversational AI interface.",
+    "keyFeatures": [
+      "LLM-based reasoning over operational data",
+      "Automatic detection of weak business areas",
+      "Decision-ready summaries via conversational AI",
+      "SQL + vector routing for hybrid data access",
+      "Excel and structured dataset processing"
+    ],
+    "image": "/assets/projects/agentic-business-insights.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#1D4ED8",
+    "result": "Automated business intelligence from raw data"
+  },
+  {
+    "id": "ai-computer-use-training-agent",
+    "name": "AI Computer-Use Training Agent",
+    "category": "AI Automation",
+    "tags": ["Python", "LLMs", "PyAutoGUI", "TTS", "FastAPI", "Automation"],
+    "description": "An AI-powered computer-use agent that assists in training employees by automatically navigating enterprise software interfaces. The agent demonstrates step-by-step actions while providing voice-based guidance, enabling hands-free learning and significantly reducing onboarding time.",
+    "keyFeatures": [
+      "Automated navigation of enterprise software interfaces",
+      "Step-by-step action demonstration",
+      "Voice-based guidance via speech synthesis",
+      "Hands-free employee training",
+      "Reduced onboarding time"
+    ],
+    "image": "/assets/projects/ai-training-agent.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#9333EA",
+    "result": "Hands-free enterprise software training"
+  },
+  {
+    "id": "ai-video-generation-platform",
+    "name": "AI Video Generation Platform",
+    "category": "AI",
+    "tags": ["React", "Node.js", "FastAPI", "Sora API", "Cloud Storage", "REST APIs"],
+    "description": "A video generation platform that enables users to generate AI videos using advanced generative models through an easy-to-use interface. The system manages multiple requests, handles API orchestration, and provides scalable video generation workflows.",
+    "keyFeatures": [
+      "AI video generation via generative models",
+      "Sora API integration",
+      "Scalable request queue management",
+      "API orchestration for multi-step workflows",
+      "User-friendly generation interface"
+    ],
+    "image": "/assets/projects/ai-video-generation.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#BE185D",
+    "result": "Scalable AI-powered video creation"
+  },
+  {
+    "id": "ai-form-filling-system",
+    "name": "Hands-Free AI Form Filling System",
+    "category": "AI Automation",
+    "tags": ["Python", "Agentic AI", "Browser Automation", "LLM APIs", "FastAPI"],
+    "description": "A production-grade AI automation tool that fills complex forms using natural language instructions. The system uses an AI agent capable of understanding the interface and performing actions autonomously — turning plain-text commands into completed form submissions.",
+    "keyFeatures": [
+      "Natural language instruction processing",
+      "Autonomous form understanding and filling",
+      "Browser automation with AI agent control",
+      "LLM-powered interface comprehension",
+      "Production-grade reliability"
+    ],
+    "image": "/assets/projects/ai-form-filling.png",
+    "video": null,
+    "mediaType": "image",
+    "color": "#EA580C",
+    "result": "Zero-effort form automation via natural language"
   }
 ]

@@ -35,17 +35,21 @@ export default function Navbar() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: 'easeOut' }}
-      className={`transition-all duration-300 ${
+      className={`transition-all duration-500 border-b ${
         scrolled
-          ? 'bg-white/95 backdrop-blur-md shadow-sm'
-          : 'bg-white/80 backdrop-blur-sm'
+          ? 'bg-white/70 backdrop-blur-xl shadow-lg border-white/20'
+          : 'bg-white/40 backdrop-blur-md border-transparent'
       }`}
+      style={{
+        WebkitBackdropFilter: scrolled ? 'blur(20px) saturate(180%)' : 'blur(12px) saturate(150%)',
+        backdropFilter: scrolled ? 'blur(20px) saturate(180%)' : 'blur(12px) saturate(150%)',
+      }}
     >
       <div className="container-custom">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-16 w-auto drop-shadow-md transition-transform duration-300 group-hover:scale-105" />
+            <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-[4.5rem] w-auto drop-shadow-md transition-transform duration-300 group-hover:scale-105" />
             <span className="text-2xl font-heading font-bold text-primary">
               Tej<span className="text-accent">Stambh</span>
             </span>

@@ -49,7 +49,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-[4.5rem] w-auto drop-shadow-md transition-transform duration-300 group-hover:scale-105" />
+            <img src="/assets/logo/tejstambh-logo-navbar.png" alt="TejStambh" className="h-[4.5rem] w-auto drop-shadow-md transition-transform duration-300 group-hover:scale-105" />
             <span className="text-2xl font-heading font-bold text-primary">
               Tej<span className="text-accent">Stambh</span>
             </span>

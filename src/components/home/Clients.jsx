@@ -3,12 +3,12 @@ import { motion } from 'framer-motion'
 import { HiExternalLink } from 'react-icons/hi'
 
 const clients = [
-  { name: 'Intermost', initials: 'IM', url: 'https://intermost.in' },
-  { name: 'Access Mails', initials: 'AM', url: 'https://accessmails.in' },
-  { name: 'RyRaah', initials: 'RR', url: 'https://ryraah.in' },
-  { name: 'Ombase', initials: 'OB', url: 'https://ombase.in' },
-  { name: 'KrishnaKala Plants', initials: 'KK', url: 'https://krishnakalaplants.in' },
-  { name: 'Nikam Interior', initials: 'NI', url: null },
+  { name: 'Intermost', initials: 'IM', url: 'https://intermost.in', logo: '/assets/clients/intermost.png' },
+  { name: 'Access Mails', initials: 'AM', url: 'https://accessmails.in', logo: null },
+  { name: 'RyRaah', initials: 'RR', url: 'https://ryraah.in', logo: '/assets/clients/ryraah.png' },
+  { name: 'Ombase', initials: 'OB', url: 'https://ombase.in', logo: null },
+  { name: 'KrishnaKala Plants', initials: 'KK', url: 'https://krishnakalaplants.in', logo: '/assets/clients/krishnakalaplants.png' },
+  { name: 'Nikam Interior', initials: 'NI', url: null, logo: null },
 ]
 
 export default function Clients() {
@@ -29,9 +29,13 @@ export default function Clients() {
                 <>
                   <div className="w-20 h-20 rounded-xl bg-light-gray border border-gray-200 flex items-center justify-center
                                 group-hover:border-accent/30 group-hover:bg-accent/5 transition-all duration-300 relative">
-                    <span className="text-xl font-heading font-bold text-secondary group-hover:text-accent transition-colors">
-                      {client.initials}
-                    </span>
+                    {client.logo ? (
+                      <img src={client.logo} alt={client.name} className="h-12 w-auto object-contain" />
+                    ) : (
+                      <span className="text-xl font-heading font-bold text-secondary group-hover:text-accent transition-colors">
+                        {client.initials}
+                      </span>
+                    )}
                     {client.url && (
                       <HiExternalLink className="absolute top-1.5 right-1.5 text-xs text-gray-300 group-hover:text-accent transition-colors" />
                     )}

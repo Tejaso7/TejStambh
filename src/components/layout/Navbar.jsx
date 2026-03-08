@@ -45,9 +45,8 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-              <span className="text-white font-heading font-bold text-xl">T</span>
-            </div>
+            <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-10 w-auto transition-transform duration-300 group-hover:scale-110" />
+            <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-10 w-auto transition-transform duration-300 group-hover:scale-110" />
             <span className="text-xl font-heading font-bold text-primary">
               Tej<span className="text-accent">Stambh</span>
             </span>

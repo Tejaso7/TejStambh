@@ -41,9 +41,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 mb-5">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-white font-heading font-bold text-xl">T</span>
-              </div>
+              <img src="/assets/logo/tejstambh-logo.png" alt="TejStambh" className="h-10 w-auto" />
               <span className="text-xl font-heading font-bold text-white">
                 Tej<span className="text-accent">Stambh</span>
               </span>

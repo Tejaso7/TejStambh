@@ -10,6 +10,9 @@ const clients = [
   { name: 'Ombase', initials: 'OB', url: 'https://ombase.in', logo: null },
   { name: 'KrishnaKala Plants', initials: 'KK', url: 'https://krishnakalaplants.in', logo: '/assets/clients/krishnakalaplants.png' },
   { name: 'Nikam Interior', initials: 'NI', url: null, logo: null },
+  { name: 'Tech Amplifiers', initials: 'TA', url: null, logo: '/assets/clients/Tech Amplifiers.png' },
+  { name: 'Cognatech Solutions', initials: 'CS', url: null, logo: '/assets/clients/Cognatech Solutions.png' },
+  { name: 'JS13 FINANCIALS', initials: 'JF', url: null, logo: '/assets/clients/JS13 Financials.jpeg' },
 ]
 
 /* Morphing blob shape variants for the background */

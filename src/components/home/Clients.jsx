@@ -5,9 +5,9 @@ import { useState, useEffect } from 'react'
 
 const clients = [
   { name: 'Intermost', initials: 'IM', url: 'https://intermost.in', logo: '/assets/clients/intermost.png' },
-  { name: 'Access Mails', initials: 'AM', url: 'https://accessmails.in', logo: null },
+  { name: 'Access Mails', initials: 'AM', url: 'https://accessmails.in', logo: '/assets/clients/Accessmails.png' },
   { name: 'RyRaah', initials: 'RR', url: 'https://ryraah.in', logo: '/assets/clients/ryraah.png' },
-  { name: 'Ombase', initials: 'OB', url: 'https://ombase.in', logo: null },
+  { name: 'Ombase', initials: 'OB', url: 'https://ombase.in', logo: '/assets/clients/Ombase.jpg' },
   { name: 'KrishnaKala Plants', initials: 'KK', url: 'https://krishnakalaplants.in', logo: '/assets/clients/krishnakalaplants.png' },
   { name: 'Nikam Interior', initials: 'NI', url: null, logo: null },
   { name: 'Tech Amplifiers', initials: 'TA', url: null, logo: '/assets/clients/Tech Amplifiers.png' },

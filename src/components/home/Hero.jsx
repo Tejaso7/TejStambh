@@ -77,10 +77,10 @@ export default function Hero() {
             className="flex flex-wrap gap-10 mt-16 pt-10 border-t border-gray-200"
           >
             {[
-              { value: '50+', label: 'Projects Delivered' },
-              { value: '30+', label: 'Happy Clients' },
+              { value: '21+', label: 'Projects Delivered' },
+              { value: '10+', label: 'Happy Clients' },
               { value: '3+', label: 'Years Experience' },
-              { value: '99%', label: 'Client Satisfaction' },
+              { value: '100%', label: 'Client Satisfaction' },
             ].map((stat) => (
               <div key={stat.label}>
                 <div className="text-3xl font-heading font-bold text-primary">{stat.value}</div>

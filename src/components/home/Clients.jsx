@@ -10,8 +10,8 @@ const clients = [
   { name: 'Ombase', initials: 'OB', url: 'https://ombase.in', logo: '/assets/clients/Ombase.jpg' },
   { name: 'KrishnaKala Plants', initials: 'KK', url: 'https://krishnakalaplants.in', logo: '/assets/clients/krishnakalaplants.png' },
   { name: 'Nikam Interior', initials: 'NI', url: null, logo: null },
-  { name: 'Tech Amplifiers', initials: 'TA', url: null, logo: '/assets/clients/Tech Amplifiers.png' },
-  { name: 'Cognatech Solutions', initials: 'CS', url: null, logo: '/assets/clients/Cognatech Solutions.png' },
+  { name: 'Tech Amplifiers', initials: 'TA', url: 'https://techamplifiers.com/', logo: '/assets/clients/Tech Amplifiers.png' },
+  { name: 'Cognatech Solutions', initials: 'CS', url: 'https://cognatech.in/', logo: '/assets/clients/Cognatech Solutions.png' },
   { name: 'JS13 FINANCIALS', initials: 'JF', url: null, logo: '/assets/clients/JS13 Financials.jpeg' },
 ]
 
